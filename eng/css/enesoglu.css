@@ -17,6 +17,13 @@ h2 {
     color:#1d1d1d;
 }
 
+h3 {
+    font-family:'Gotham'; 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    color:#1d1d1d;
+}
 p {
     font-family: 'Gotham';
     font-weight: normal;
