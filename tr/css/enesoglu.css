@@ -1,0 +1,65 @@
+h1,h2,h3,h4,h5,h6{
+    font-family: "Gotham";
+}
+h1 {
+    font-family:'Gotham'; 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 32px;
+    color:#fff;
+}
+
+h2 {
+    font-family:'Gotham'; 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color:#1d1d1d;
+}
+
+h3 {
+    font-family:'Gotham'; 
+    font-weight: 500;
+    font-style: normal;
+    font-size: 100px;
+    color:#1d1d1d;
+}
+
+h4{
+    font-family:'Gotham'; 
+    font-weight: bold;
+    font-style: normal;
+    font-size: 60px;
+    color:#fff;
+}
+
+
+
+h5{
+    color: #1d1d1d;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+p {
+    color: #fff;
+    font-family: 'Gotham';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#nav-el{
+    
+    position: relative;
+    margin: auto;
+    padding: 10px;
+}
+
+#logo{
+    position: center;
+    margin: auto;
+    padding: 10px;
+}
