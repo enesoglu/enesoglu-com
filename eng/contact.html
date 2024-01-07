@@ -52,8 +52,67 @@
 
                 </ul>
             </div>
-          </nav>
+        </nav>
 
+        <br><br><br><br><br><br>
+
+        <div class="container mt-5 py-5" style="background-color: #1d1d1d; border-radius: 25px; align-items:center;">
+            <h4 class="text-center mb-5" style="color: #fff;">contact me</h4>
+
+            <div style="align-items: center;">
+                <div class="mx-5">
+                    <form id="contact-form" name="contact-form">
+
+                        <div class="row">
+
+                            <!-- Your Name -->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class=""><p>your name</p></label>
+                                </div>
+                            </div>
+
+                            <!-- Your Email -->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class=""><p>your email</p><br></label>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        <!-- Subject -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class=""><p>subject</p><br></label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Your Message -->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message"><p>your message</p></label>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+    
+                    <div class="text-center text-md-left .btn-block">
+                        <a class="btn btn-dark btn-lg btn-block">Send</a>
+                    </div>
+                    <div class="status"></div>
+                </div>
+            </div> 
+        </div>
+      
 
 
     <script src="js/bootstrap.min.js"></script>
